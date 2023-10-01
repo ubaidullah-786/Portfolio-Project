@@ -107,3 +107,158 @@ header {
   width: 170.167px;
   height: 20px;
 }
+
+.works {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 88px;
+  padding: 114px 23px;
+  background-color: rgb(241, 241, 241);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+}
+
+.cards img {
+  border-radius: 8px;
+  background: lightgray 50% / cover no-repeat;
+  width: 295px;
+  height: 220px;
+}
+
+.left-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.tonic {
+  width: 295px;
+  height: 36px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.stories {
+  width: 295px;
+  height: 80px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.data-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.canopy {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.canopy-text {
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.data-list .canopy:nth-child(1) .canopy-text {
+  color: #344563;
+}
+
+.data-list img {
+  width: 8px;
+  height: 8px;
+  fill: #c1c7d0;
+}
+
+.text {
+  width: 295px;
+  height: 76px;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.techs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.tech-style {
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: #ebebff;
+}
+
+.tech-style span {
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  padding: 12px 168px 12px 0;
+}
+
+.see-project {
+  display: flex;
+  padding: 11px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+}
+
+.see-project span {
+  color: #396df2;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.works .cards:nth-child(2) .left-block .tonic,
+.works .cards:nth-child(4) .left-block .tonic {
+  height: 80px;
+}
