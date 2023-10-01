@@ -53,7 +53,7 @@ header {
 }
 
 .headline {
-  background-image: url(./header-shapes\ mobile.png);
+  background-image: url(./background-shapes.png);
   background-repeat: no-repeat;
   display: inline-flex;
   flex-direction: column;
